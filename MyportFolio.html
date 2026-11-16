@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#dfd1bc">
+<title>Sharif Miftahudin – .NET Developer</title>
+<style>
+:root{--bg:#dfd1bc;--ink:#2b2118;--mut:#7a6650;--card:rgba(244,236,222,.88);--acc:#d9622b}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif}
+#gl{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0}
+nav{position:fixed;z-index:5;left:0;right:0;top:0;display:flex;justify-content:space-between;padding:calc(18px + env(safe-area-inset-top,0px)) 28px 0;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+nav a{color:var(--ink);text-decoration:none}
+main{position:relative;z-index:2}
+.s{min-height:100vh;display:flex;align-items:center;padding:0 6vw}
+.L{justify-content:flex-start}.R{justify-content:flex-end}
+.card{width:min(470px,100%);background:var(--card);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:22px;padding:26px 28px;box-shadow:0 24px 60px rgba(60,40,20,.16)}
+.eb{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);font-weight:700;margin-bottom:10px}
+h1{font-size:clamp(42px,6vw,78px);line-height:.95;letter-spacing:-.04em;margin-bottom:14px}
+h2{font-size:clamp(28px,3.6vw,42px);line-height:1;letter-spacing:-.03em;margin-bottom:14px}
+p{line-height:1.55;font-size:16px;color:#4a3b2d}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;padding:10px 16px;border-radius:999px;border:2px solid var(--ink)}
+.btn.p{background:var(--ink);color:var(--bg)}
+.r{padding:11px 0;border-top:1px solid rgba(43,33,24,.15);font-size:14px;line-height:1.45}
+.r b{display:block;font-size:15px}.r span{color:var(--mut);font-size:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chips i{font-style:normal;font-size:13px;padding:5px 11px;border-radius:999px;background:rgba(43,33,24,.08)}
+.hint{position:fixed;z-index:5;left:28px;bottom:calc(22px + env(safe-area-inset-bottom,0px));font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+@media (max-width:760px){
+ .s{align-items:flex-end;justify-content:center;padding:0 14px calc(18px + env(safe-area-inset-bottom,0px))}
+ .card{max-height:54vh;overflow:auto;padding:20px}
+ .hint{display:none}
+}
+</style>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<nav><a href="#s0">Sharif</a><a href="mailto:kopisharif@gmail.com">Contact</a></nav>
+<div class="hint">Scroll ↓</div>
+<main>
+<section class="s L" id="s0"><div class="card">
+  <div class="eb">Jakarta · Indonesia</div>
+  <h1>Hi, I’m Sharif.</h1>
+  <p>Full stack .NET developer building ERP, payroll and inventory systems with C#, SQL Server, ASP.NET and Angular. This is my little corner – coffee, code and palm oil.</p>
+  <div class="btns"><a class="btn p" href="mailto:kopisharif@gmail.com">Say hello</a><a class="btn" href="https://github.com/Sharif-ux" target="_blank" rel="noopener">GitHub</a></div>
+</div></section>
+<section class="s R" id="s1"><div class="card">
+  <div class="eb">Code</div><h2>Where I’ve built things</h2>
+  <div class="r"><b>Full Stack .NET Developer</b><span>PT Ekrut Indonesia · 2025 – now</span>ERP modules (HR, Payroll, Finance, Inventory, Procurement) in C# WinForms, DevExpress, ASP.NET MVC and SQL Server. Copilot integration.</div>
+  <div class="r"><b>Full Stack Developer</b><span>PT Code Development Indonesia · 2024 – 2025</span>Asset management system – ASP.NET, AngularJS, Azure DevOps CI/CD.</div>
+  <div class="r"><b>Desktop Developer</b><span>PT Evergreen Hans · 2023 – 2024</span>VB.NET payroll and inventory, RDLC and Crystal Reports, 7 clients.</div>
+  <div class="r"><b>Earlier</b><span>2020 – 2022</span>Front end at PT Metranet, WordPress sites at PT Global Milenial Grup, freelance web mentor at PT CodingStar.</div>
+</div></section>
+<section class="s R" id="s2"><div class="card">
+  <div class="eb">Project 01</div><h2>General Ledger &amp; Finance</h2>
+  <p>Ledger and trial-balance modules for an agribusiness ERP: grouped account views, period and business-unit filters, consolidation and drill-down to journal detail.</p>
+  <div class="chips"><i>C# WinForms</i><i>DevExpress</i><i>SQL Server</i></div>
+</div></section>
+<section class="s R" id="s3"><div class="card">
+  <div class="eb">Project 02</div><h2>Asset Management</h2>
+  <p>Asset platform with a KPI dashboard, assets by category and location, additions vs deductions, spend rankings and an asset-request approval flow.</p>
+  <div class="chips"><i>ASP.NET</i><i>AngularJS</i><i>SQL Server</i><i>PostgreSQL</i></div>
+</div></section>
+<section class="s R" id="s4"><div class="card">
+  <div class="eb">Project 03</div><h2>Worki OKR</h2>
+  <p>OKR tracker for personal and project objectives: quarterly filters, status and progress per key result, and an approval flow.</p>
+  <div class="chips"><i>Web app</i><i>Dashboard</i><i>Approval flow</i></div>
+</div></section>
+<section class="s R" id="s5"><div class="card">
+  <div class="eb">Project 04</div><h2>Payroll</h2>
+  <p>Pocket-checklist payroll worksheet: workers grouped by division, work-day totals with group subtotals, and multiple wage-report formats.</p>
+  <div class="chips"><i>C# WinForms</i><i>DevExpress</i><i>SQL Server</i></div>
+</div></section>
+<section class="s R" id="s6"><div class="card">
+  <div class="eb">Skills &amp; contact</div><h2>Let’s build something</h2>
+  <div class="chips"><i>C#</i><i>ASP.NET</i><i>VB.NET</i><i>SQL Server</i><i>PostgreSQL</i><i>AngularJS</i><i>NextJS</i><i>ReactJS</i><i>ExpressJS</i><i>Spring Boot</i><i>DevExpress</i><i>RDLC</i><i>Azure DevOps</i><i>Scrum</i><i>TDD</i></div>
+  <p style="margin-top:14px">B.Eng. Informatics, Politeknik Pos Indonesia (2018 – 2022).</p>
+  <div class="btns"><a class="btn p" href="mailto:kopisharif@gmail.com">kopisharif@gmail.com</a><a class="btn" href="https://github.com/Sharif-ux" target="_blank" rel="noopener">GitHub</a></div>
+</div></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const BG=0xdfd1bc;
+const ren=new THREE.WebGLRenderer({canvas:document.getElementById('gl'),antialias:true});
+ren.setPixelRatio(Math.min(devicePixelRatio,2));ren.setClearColor(BG);
+ren.shadowMap.enabled=true;ren.shadowMap.type=THREE.PCFSoftShadowMap;
+const sc=new THREE.Scene();sc.fog=new THREE.Fog(BG,22,45);
+const cam=new THREE.PerspectiveCamera(35,1,.1,100);
+sc.add(new THREE.HemisphereLight(0xfff1dc,0x9a7a56,.75));
+const sun=new THREE.DirectionalLight(0xfff0d8,.85);sun.position.set(6,10,6);sun.castShadow=true;
+sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-9,right:9,top:9,bottom:-9,near:1,far:40});sun.shadow.bias=-.0006;sc.add(sun);
+const room=new THREE.Group();sc.add(room);
+const mats={};const mat=c=>mats[c]||(mats[c]=new THREE.MeshStandardMaterial({color:c,roughness:.8}));
+const mesh=(g,c,x,y,z,p)=>{const m=new THREE.Mesh(g,typeof c==='object'?c:mat(c));m.position.set(x,y,z);m.castShadow=m.receiveShadow=true;(p||room).add(m);return m};
+const box=(w,h,d,c,x,y,z,p)=>mesh(new THREE.BoxGeometry(w,h,d),c,x,y,z,p);
+const cyl=(rt,rb,h,c,x,y,z,p,s)=>mesh(new THREE.CylinderGeometry(rt,rb,h,s||20),c,x,y,z,p);
+const scr=(w,h,tex,x,y,z,p)=>{const m=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshBasicMaterial({map:tex}));m.position.set(x,y,z);(p||room).add(m);return m};
+const cv=(w,h)=>{const c=document.createElement('canvas');c.width=w;c.height=h;return c};
+const tex=c=>{const t=new THREE.CanvasTexture(c);t.minFilter=THREE.LinearFilter;t.generateMipmaps=false;return t};
+// floor + walls
+box(9,.3,7,0xb98a58,0,-.15,0);
+const fc=cv(512,512),fg=fc.getContext('2d');for(let i=0;i<8;i++){fg.fillStyle=i%2?'#c9a06a':'#bf9460';fg.fillRect(i*64,0,62,512)}
+const fl=new THREE.Mesh(new THREE.PlaneGeometry(9,7),new THREE.MeshStandardMaterial({map:tex(fc),roughness:.85}));fl.rotation.x=-Math.PI/2;fl.position.y=.001;fl.receiveShadow=true;room.add(fl);
+box(9.2,4.4,.2,0xefe3cd,0,2.2,-3.5);box(.2,4.4,7,0xe7d9bf,-4.5,2.2,0);
+const rug=cyl(2.1,2.1,.04,0xc46a4a,.2,.03,.4,null,40);cyl(1.5,1.5,.05,0xe9d3a8,.2,.035,.4,null,40);
+// window (left wall) + poster frames
+box(.1,1.9,1.7,0x8a5a35,-4.38,2.6,.4);const wg=new THREE.Mesh(new THREE.PlaneGeometry(1.5,1.7),new THREE.MeshBasicMaterial({color:0xfff6dc}));wg.rotation.y=Math.PI/2;wg.position.set(-4.31,2.6,.4);room.add(wg);
+function poster(txt,bg,fg,x,y){const c=cv(200,280),g=c.getContext('2d');g.fillStyle=bg;g.fillRect(0,0,200,280);g.fillStyle=fg;g.font='bold 56px sans-serif';g.textAlign='center';g.fillText(txt,100,160);box(1.0,1.3,.06,0x2b2118,x,y,-3.37);scr(.88,1.18,tex(c),x,y,-3.33)}
+poster('</>','#efe3cd','#d9622b',-2.6,3.1);
+// desk
+const wood=0x8a5a35;
+box(3.4,.12,1.4,wood,-.8,1.2,-2.65);[[-2.4,-3.2],[.8,-3.2],[-2.4,-2.1],[.8,-2.1]].forEach(([x,z])=>box(.12,1.2,.12,wood,x,.6,z));
+// monitor
+const mon=new THREE.Group();mon.position.set(-.8,1.26,-3.0);room.add(mon);
+cyl(.45,.5,.05,0x2b2118,0,.03,0,mon);box(.14,.7,.1,0x2b2118,0,.4,0,mon);box(2.2,1.4,.1,0x2b2118,0,1.1,0,mon);
+const cc=cv(640,400),g=cc.getContext('2d'),ct=tex(cc);scr(2.0,1.25,ct,0,1.1,.06,mon);
+const L=['// sharif.cs','public class Developer','{','  string Name = "Sharif";','  string[] Stack = {','    "C#", ".NET", "SQL Server",','    "ASP.NET", "Angular" };','  bool Sawit = true;','  async Task Build() =>','    await Ship("ERP");','}'];
+const FULL=L.join('\n').length,KW=/^(public|class|string|bool|true|async|Task|await)$/;
+function drawCode(n,bl){
+  g.fillStyle='#2b2118';g.fillRect(0,0,640,400);g.fillStyle='#3d2f22';g.fillRect(0,0,640,28);
+  ['#ff5f56','#ffbd2e','#27c93f'].forEach((c,i)=>{g.fillStyle=c;g.beginPath();g.arc(16+i*18,14,5,0,6.3);g.fill()});
+  g.font='16px Consolas,monospace';let left=n,ex=44,ey=60;
+  for(let i=0;i<L.length&&left>=0;i++){const s=L[i].slice(0,left);left-=L[i].length+1;const y=60+i*26;let x=44;
+    g.fillStyle='#8a7761';g.fillText(String(i+1).padStart(2),12,y);
+    (s.match(/\/\/.*|"[^"]*"?|\w+|\s+|./g)||[]).forEach(t=>{g.fillStyle=t.startsWith('//')?'#8a7761':t[0]=='"'?'#e9b872':KW.test(t)?'#d9622b':/^[A-Z]/.test(t)?'#f4e9d4':'#e4d6bd';g.fillText(t,x,y);x+=g.measureText(t).width});ex=x;ey=y}
+  if(bl){g.fillStyle='#d9622b';g.fillRect(ex+1,ey-13,9,17)}ct.needsUpdate=true}
+// keyboard, mouse, mug, lamp, headset
+box(1.3,.05,.45,0xf4e9d4,-.8,1.29,-2.25);box(.14,.05,.22,0xf4e9d4,.2,1.29,-2.3);
+const mug=new THREE.Group();mug.position.set(.4,1.26,-2.5);room.add(mug);
+const cer=new THREE.MeshStandardMaterial({color:0xfff6e8,roughness:.3,side:THREE.DoubleSide});
+cyl(.17,.14,.3,cer,0,.15,0,mug,20);cyl(.15,.15,.02,0x3b2314,0,.26,0,mug,20);
+const hd=mesh(new THREE.TorusGeometry(.09,.025,8,16,Math.PI),cer,.19,.16,0,mug);hd.rotation.z=-Math.PI/2;
+const spc=cv(64,64),sg=spc.getContext('2d'),gr=sg.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,'rgba(255,255,255,.9)');gr.addColorStop(1,'rgba(255,255,255,0)');sg.fillStyle=gr;sg.fillRect(0,0,64,64);
+const steam=[...Array(8)].map((_,i)=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:tex(spc),transparent:true,depthWrite:false}));s.userData={p:i/8,x:Math.random()-.5};mug.add(s);return s});
+const lamp=new THREE.Group();lamp.position.set(-2.2,1.26,-3.05);room.add(lamp);
+cyl(.2,.24,.05,0x2b2118,0,.03,0,lamp);box(.05,.8,.05,0x2b2118,0,.45,0,lamp);
+const sh=mesh(new THREE.ConeGeometry(.28,.3,20,1,true),new THREE.MeshStandardMaterial({color:0xd9622b,side:THREE.DoubleSide,emissive:0xffa24d,emissiveIntensity:.6}),0,.95,0,lamp);
+const lampL=new THREE.PointLight(0xffc27a,.9,6);lampL.position.set(0,.85,.2);lamp.add(lampL);
+// chair
+const ch=new THREE.Group();ch.position.set(-.8,0,-1.45);ch.rotation.y=.3;room.add(ch);
+box(.9,.12,.9,0x2b2118,0,.5,0,ch);box(.9,1,.12,0x2b2118,0,1.05,.45,ch);cyl(.07,.07,.4,0x555,0,.27,0,ch,10);cyl(.5,.5,.06,0x2b2118,0,.06,0,ch,5);
+// sawit palm in pot
+const palm=new THREE.Group();palm.position.set(-3.3,0,-2.2);room.add(palm);
+cyl(.5,.38,.7,0xc46a4a,0,.35,0,palm,24);cyl(.46,.46,.04,0x3b2314,0,.7,0,palm,24);
+let px=0;for(let i=0;i<8;i++){px=Math.sin(i*.4)*.1;cyl(.12-i*.004,.15-i*.004,.3,i%2?0x6e5a46:0x5b4a3a,px,.85+i*.3,0,palm,10)}
+const crown=new THREE.Group();crown.position.set(px,3.15,0);palm.add(crown);
+mesh(new THREE.SphereGeometry(.2,10,8),0x3f5f3f,0,0,0,crown);
+const leafG=new THREE.ConeGeometry(.16,1.0,4).translate(0,.5,0),leafM=new THREE.MeshStandardMaterial({color:0x5f9a62,flatShading:true,roughness:.7,side:THREE.DoubleSide});
+for(let i=0;i<11;i++){const f=new THREE.Group();f.rotation.y=i*Math.PI*2/11;crown.add(f);
+  const a=mesh(leafG,leafM,0,0,0,f);a.rotation.z=-(Math.PI/2-.6);a.scale.z=.35;
+  const e=new THREE.Group();e.position.set(Math.cos(.6),Math.sin(.6),0);f.add(e);
+  const b=mesh(leafG,leafM,0,0,0,e);b.rotation.z=-(Math.PI/2+.7);b.scale.z=.35}
+const fm=new THREE.MeshStandardMaterial({color:0xe8590c,emissive:0x3a1000,roughness:.5}),fgm=new THREE.IcosahedronGeometry(.1,0);
+for(let i=0;i<9;i++){const a=i*.7;mesh(fgm,fm,Math.cos(a)*.22,-.2-(i%3)*.1,Math.sin(a)*.22,crown)}
+// floor lamp near window
+cyl(.05,.05,2.4,0x2b2118,-3.9,1.2,1.9,null,8);mesh(new THREE.ConeGeometry(.35,.45,20,1,true),new THREE.MeshStandardMaterial({color:0xf4e9d4,side:THREE.DoubleSide,emissive:0xffe1a8,emissiveIntensity:.5}),-3.9,2.55,1.9);
+// project wall display
+box(3.2,.9,1,0x8a5a35,2.9,.45,-2.95);
+box(.5,.3,.4,0xc46a4a,1.8,1.05,-2.95);box(.5,.25,.35,0x2b2118,1.8,1.32,-2.95);
+cyl(.2,.16,.3,0xc46a4a,4.0,1.05,-2.95,null,16);mesh(new THREE.SphereGeometry(.28,14,10),0x5f9a62,4.0,1.45,-2.95);
+box(3.9,2.45,.1,0x2b2118,2.9,2.3,-3.35);
+const mkc=()=>{const c=cv(1024,640);return [c,c.getContext('2d')]};
+const R=(g,x,y,w,h,c)=>{g.fillStyle=c;g.fillRect(x,y,w,h)};
+const T=(g,s,x,y,sz,c,w,al)=>{g.fillStyle=c;g.textAlign=al||'left';g.font=`${w||'normal'} ${sz}px "Segoe UI",Arial,sans-serif`;g.fillText(s,x,y)};
+const nf=n=>Math.round(n).toLocaleString('id-ID');
+function pGL(){const [c,g]=mkc();R(g,0,0,1024,640,'#fff');R(g,0,0,1024,34,'#474747');T(g,'GLR1 - General Ledger',512,23,15,'#eee','bold','center');
+  R(g,0,34,1024,26,'#f0f0f0');['File','Home','Insert','Data','Formulas','Review','View'].forEach((s,i)=>T(g,s,18+i*68,52,13,'#333'));
+  R(g,0,60,1024,66,'#f7f7f7');['Get Data','Refresh','Filter','Consolidate','Group','Subtotal','Show Detail'].forEach((s,i)=>{R(g,22+i*100,70,34,30,'#d6dee8');T(g,s,22+i*100,116,12,'#444')});
+  R(g,0,128,170,28,'#fff');T(g,'GLR1 - General Ledger',12,147,12,'#333');
+  R(g,0,162,1024,40,'#ececec');[['Account',20],['Account Name',150],['Debit (Rp)',560],['Credit (Rp)',720],['Ending (Rp)',880]].forEach(([s,x])=>T(g,s,x,188,13,'#222','bold'));
+  ['Cash IDR','Petty Cash','Bank Account Rp','Bank Account USD','Cash in Transit','Inter-company','Accounts Payable','Spare Parts Inventory','Prepaid Expense','Fixed Assets'].forEach((s,i)=>{const y=204+i*38,col=i?'#1a5fb4':'#fff';
+    if(i==0)R(g,0,y,1024,38,'#1e6fe0');else if(i%2)R(g,0,y,1024,38,'#f6f8fa');
+    T(g,'\u203a 111.'+(10+i)+'.0'+(i%4+1),20,y+25,13,col,'bold');T(g,s,150,y+25,13,col,'bold');
+    [560,720,880].forEach((x,k)=>T(g,nf(((i+3)*(k+5)*7919123)%900000000),x,y+25,13,i?'#222':'#fff'))});
+  R(g,0,598,1024,42,'#474747');T(g,'Ready \u00b7 Record: 3.302 \u00b7 Period 2026-01',16,624,13,'#ddd');return tex(c)}
+function pAS(){const [c,g]=mkc();R(g,0,0,1024,640,'#eceff3');R(g,0,0,176,640,'#fff');T(g,'Logo',18,34,15,'#1c8fd0');
+  ['Dashboard','Inbox','Administration','Master','Assets','Inventory','Maintenance','Depreciator','Import','Report'].forEach((s,i)=>{T(g,s,46,86+i*38,13,i?'#444':'#1c8fd0');R(g,18,76+i*38,18,14,i?'#bbb':'#1c8fd0')});
+  R(g,176,0,848,56,'#fff');T(g,'Dashboard',192,36,17,'#222','bold');T(g,'statistics and reports',300,36,13,'#999');
+  [['Total Asset','769'],['Depreciated','427'],['Total Value','Rp 6.5B'],['Active','679'],['Disposed','31']].forEach(([a,b],i)=>{const x=190+i*166;R(g,x,70,156,90,'#fff');T(g,a,x+14,96,13,'#555');T(g,b,x+14,134,26,'#111','bold')});
+  R(g,190,172,268,200,'#fff');T(g,'Asset By Location',204,198,13,'#222','bold');R(g,204,210,240,150,'#f3e6b8');g.strokeStyle='#e0b94a';g.lineWidth=3;for(let i=0;i<9;i++){g.beginPath();g.moveTo(204+i*30,210);g.lineTo(230+i*26,360);g.stroke();g.beginPath();g.moveTo(204,215+i*17);g.lineTo(444,230+i*15);g.stroke()}
+  R(g,470,172,268,200,'#fff');T(g,'Asset By Category',484,198,13,'#222','bold');let a0=-Math.PI/2;[['#1c8fd0',38],['#f25555',22],['#e8e4d8',12],['#a8c8dc',10],['#b8aca8',8],['#d8c0c0',6],['#7ad0f0',4]].forEach(([col,v])=>{const a1=a0+v/100*6.283;g.fillStyle=col;g.beginPath();g.moveTo(604,290);g.arc(604,290,70,a0,a1);g.fill();a0=a1});
+  R(g,750,172,268,200,'#fff');T(g,'Addition vs Deduction',764,198,13,'#222','bold');g.strokeStyle='#1c8fd0';g.lineWidth=2;g.beginPath();[20,45,30,60,50,90,70,35].forEach((v,i)=>{const x=770+i*32,y=350-v*1.3;i?g.lineTo(x,y):g.moveTo(x,y)});g.stroke();
+  R(g,190,384,548,246,'#fff');T(g,'Asset By Highest Spend',204,410,13,'#222','bold');[420,330,260,210,160].forEach((w,i)=>{R(g,210,430+i*38,w,18,i?'#d8d2c0':'#1c8fd0');T(g,'[AB00000'+(i+1)+'] Asset item '+(i+1),w+220,444+i*38,12,'#444')});
+  R(g,750,384,268,246,'#fff');T(g,'Asset Request',764,410,14,'#222','bold');[['Rejected','#f0506e'],['Approved','#32c68a'],['Submitted','#1e9be9']].forEach(([s,col],i)=>{const y=426+i*68;R(g,764,y,70,20,col);T(g,s,799,y+14,11,'#fff','bold','center');T(g,'ASSETREQCODE0'+(17-i),764,y+42,14,'#222','bold');T(g,'10/11/2026 \u00b7 admin',764,y+58,11,'#777')});return tex(c)}
+function pOK(){const [c,g]=mkc();R(g,0,0,1024,640,'#f4f6f7');R(g,0,0,176,640,'#fff');T(g,'OKR',24,62,30,'#3a9a9a','bold');
+  ['Dashboard','OKR','Approval'].forEach((s,i)=>{T(g,s,52,160+i*38,14,'#333');R(g,22,148+i*38,16,16,'#444')});
+  R(g,190,24,810,84,'#fff');R(g,214,48,520,34,'#fff');g.strokeStyle='#bbb';g.strokeRect(214,48,520,34);T(g,'Search',244,71,14,'#888');
+  R(g,190,124,810,500,'#fff');T(g,'Objective and Key Results',214,170,22,'#222','bold');
+  T(g,'Personal OKR',214,224,14,'#3a9a9a');R(g,214,232,100,2,'#3a9a9a');T(g,'Project',336,224,14,'#666');
+  ['Q1','Q2','Q3','Q4'].forEach((s,i)=>{R(g,560+i*58,206,50,28,i?'#eef2f3':'#3a9a9a');T(g,s,585+i*58,225,13,i?'#555':'#fff','bold','center')});
+  R(g,870,206,110,30,'#3a9a9a');T(g,'New OKR',925,226,13,'#fff','bold','center');
+  R(g,214,262,770,44,'#e6fbf8');T(g,'Objective and Key Result',240,290,14,'#222','bold');T(g,'Status',640,290,14,'#222','bold');T(g,'Progress',780,290,14,'#222','bold');
+  [['Sub Objective A1','On Track',80],['Project Kickoff','On Track',45],['Quarterly Review','Not Started',0],['Team Alignment','On Track',60]].forEach(([n,st,pr],i)=>{const y=318+i*72;R(g,214,y+68,770,1,'#e6e6e6');T(g,n,240,y+40,14,'#333');
+    R(g,620,y+20,130,34,st=='On Track'?'#e6fbf8':'#eef1f3');T(g,st,685,y+43,13,st=='On Track'?'#3a9a9a':'#777','bold','center');
+    R(g,780,y+32,110,8,'#e8ecee');R(g,780,y+32,110*pr/100,8,'#3a9a9a');T(g,pr+'%',905,y+42,13,'#444')});return tex(c)}
+function pPR(){const [c,g]=mkc();R(g,0,0,1024,640,'#fff');R(g,0,0,1024,34,'#2457a6');T(g,'PCR1 - Pocket Checklist',512,23,15,'#fff','bold','center');
+  R(g,0,34,1024,26,'#f0f0f0');['File','Home','Insert','Page Layout','Formulas','Data','Review'].forEach((s,i)=>T(g,s,18+i*76,52,13,'#333'));
+  R(g,0,60,1024,64,'#f7f7f7');['Spelling','AI Check','Protect Sheet'].forEach((s,i)=>{R(g,22+i*90,70,34,30,'#d6dee8');T(g,s,22+i*90,116,12,'#444')});
+  ['01.Supervision','02.Daily Wage','03.Print List','04.Civil','05.Supervision DIV','06.Wage DIV'].forEach((s,i)=>T(g,s,330+(i%3)*190,82+Math.floor(i/3)*24,12,'#333'));
+  R(g,0,128,1024,26,'#e9edf3');['SU07 - Power Query','PCR1 - Pocket Checklist','Preview [PCR1.03]'].forEach((s,i)=>T(g,s,12+i*190,146,12,i==1?'#000':'#555'));
+  R(g,0,160,1024,40,'#ececec');[['Code',20],['Worker Name',84],['Position',250],['Status',390],['Division',480],['Foreman Class',570],['HKE Tot',760],['Total HK',880]].forEach(([s,x])=>T(g,s,x,185,12,'#222','bold'));
+  const rows=[['g','Division: DIV-1'],['d','101','Worker A','Fruit Checker','KHL-SPV','DIV-1','SPV-DIV1','27,00'],['d','102','Worker B','Harvest Foreman','KHL-SPV','DIV-1','SPV-DIV1','27,00'],['d','103','Worker C','Harvest Foreman','KHL-SPV','DIV-1','SPV-DIV1','24,00'],['t','Row 3','78,00'],['g','Division: DIV-3'],['d','144','Worker D','Upkeep','KHL','DIV-3','UPKEEP-DIV3','10,00'],['d','145','Worker E','Upkeep','KHL','DIV-3','UPKEEP-DIV3','13,00'],['d','146','Worker F','Upkeep','KHL','DIV-3','UPKEEP-DIV3','11,00'],['d','147','Worker G','Upkeep','KHL','DIV-3','UPKEEP-DIV3','17,00']];
+  rows.forEach((r,i)=>{const y=202+i*38;
+    if(r[0]=='g'){R(g,0,y,1024,38,i==5?'#dbe5f6':'#f4f4f4');T(g,'\u2335 '+r[1],20,y+25,13,'#222','bold')}
+    else if(r[0]=='t'){R(g,0,y,1024,38,'#f0f0f0');T(g,r[1],60,y+25,12,'#444');T(g,r[2],760,y+25,12,'#222','bold');T(g,r[2],880,y+25,12,'#222','bold')}
+    else{[20,84,250,390,480,570,760,880].forEach((x,k)=>T(g,r[k+1],x,y+25,12,'#222'));T(g,r[7],880,y+25,12,'#222');R(g,0,y+37,1024,1,'#eee')}});
+  R(g,0,586,1024,24,'#f3f3f3');['Detail','Recap G-2','Recap Long','Recap-5'].forEach((s,i)=>T(g,s,14+i*90,603,12,'#333'));
+  R(g,0,610,1024,30,'#474747');T(g,'Status: [PCR1.GA Closed] \u00b7 Record: 337',14,630,12,'#ddd');return tex(c)}
+const PT=[pGL(),pAS(),pOK(),pPR()];
+const dA=new THREE.Mesh(new THREE.PlaneGeometry(3.7,2.31),new THREE.MeshBasicMaterial({map:PT[0]}));dA.position.set(2.9,2.3,-3.295);room.add(dA);
+const dB=new THREE.Mesh(new THREE.PlaneGeometry(3.7,2.31),new THREE.MeshBasicMaterial({map:PT[1],transparent:true,opacity:0}));dB.position.set(2.9,2.3,-3.29);room.add(dB);
+// character: Sharif (curly hair, no glasses, British football-casual outfit)
+const SKN=0xb87a4f,HAIR=0x16100b,JKT=0x1d2b4f,JNS=0x8c7b57,hipY=1;
+const tc=cv(128,128),tg2=tc.getContext('2d');tg2.fillStyle='#17181b';tg2.fillRect(0,0,128,128);tg2.fillStyle='#e9e2cf';tg2.beginPath();tg2.arc(64,56,34,0,6.3);tg2.fill();
+tg2.font='44px serif';tg2.textAlign='center';tg2.fillText('\ud83c\udf34',64,72);tg2.fillStyle='#e9e2cf';tg2.font='bold 17px sans-serif';tg2.fillText('SAWIT SK8',64,112);
+const blk=mat(0x17181b),teeF=new THREE.MeshStandardMaterial({map:tex(tc),roughness:.8});
+const kc2=cv(64,64),kg2=kc2.getContext('2d');kg2.fillStyle='#111';kg2.fillRect(0,0,64,64);kg2.fillStyle='#f2f2f2';for(let a=0;a<4;a++)for(let b=0;b<4;b++)if((a+b)%2)kg2.fillRect(a*16,b*16,16,16);
+const chk=new THREE.MeshStandardMaterial({map:tex(kc2),roughness:.7});
+const me=new THREE.Group();room.add(me);const body=new THREE.Group();me.add(body);
+function leg(x){const h=new THREE.Group();h.position.set(x,hipY,0);body.add(h);cyl(.16,.15,.5,JNS,0,-.25,0,h,10);
+  const k=new THREE.Group();k.position.set(0,-.5,0);h.add(k);cyl(.15,.14,.5,JNS,0,-.25,0,k,10);
+  box(.19,.09,.36,chk,0,-.44,.08,k);box(.2,.03,.38,0xf5f5f5,0,-.485,.08,k);return[h,k]}
+const [thL,knL]=leg(.12),[thR,knR]=leg(-.12);
+const tor=new THREE.Group();tor.position.set(0,hipY+.02,0);body.add(tor);
+mesh(new THREE.BoxGeometry(.56,.66,.32),[blk,blk,blk,blk,teeF,blk],0,.33,0,tor);
+cyl(.08,.08,.1,SKN,0,.71,0,tor,10);
+const col=mesh(new THREE.TorusGeometry(.14,.025,6,16),blk,0,.66,0,tor);col.rotation.x=Math.PI/2;
+function arm(x){const sh=new THREE.Group();sh.position.set(x,.58,0);tor.add(sh);cyl(.1,.09,.2,0x17181b,0,-.1,0,sh,10);cyl(.07,.065,.12,SKN,0,-.24,0,sh,10);
+  const el=new THREE.Group();el.position.set(0,-.3,0);sh.add(el);cyl(.062,.052,.28,SKN,0,-.14,0,el,10);mesh(new THREE.SphereGeometry(.06,10,8),SKN,0,-.3,0,el);return[sh,el]}
+const [shL,elL]=arm(.31),[shR,elR]=arm(-.31);
+const head=new THREE.Group();head.position.set(0,.88,0);tor.add(head);
+mesh(new THREE.SphereGeometry(.21,20,16),SKN,0,0,0,head);
+[-.075,.075].forEach(x=>{mesh(new THREE.SphereGeometry(.028,8,8),HAIR,x,.02,.19,head);box(.085,.016,.02,HAIR,x,.09,.19,head)});
+mesh(new THREE.SphereGeometry(.035,8,8),0xa56a42,0,-.03,.205,head);
+const mo=mesh(new THREE.TorusGeometry(.05,.01,6,12,Math.PI),0x6b2a1e,0,-.07,.195,head);mo.rotation.z=Math.PI;
+[-.21,.21].forEach(x=>mesh(new THREE.SphereGeometry(.04,8,8),SKN,x,-.01,0,head));
+const hg=new THREE.IcosahedronGeometry(1,1),hm=mat(HAIR);
+for(let i=0;i<48;i++){const th=Math.random()*6.283,ph=Math.acos(1-Math.random()*1.25),x=Math.sin(ph)*Math.cos(th),y=Math.cos(ph),z=Math.sin(ph)*Math.sin(th);
+  if(z>.35&&ph>.9)continue;mesh(hg,hm,x*.2,y*.2+.02,z*.2,head).scale.setScalar(.07+Math.random()*.045)}
+function bubble(txt){const c=cv(420,150),g=c.getContext('2d');g.fillStyle='#fff6e8';g.strokeStyle='#2b2118';g.lineWidth=5;g.beginPath();
+  g.moveTo(30,6);g.lineTo(390,6);g.quadraticCurveTo(414,6,414,30);g.lineTo(414,88);g.quadraticCurveTo(414,112,390,112);g.lineTo(230,112);g.lineTo(210,142);g.lineTo(190,112);g.lineTo(30,112);g.quadraticCurveTo(6,112,6,88);g.lineTo(6,30);g.quadraticCurveTo(6,6,30,6);g.fill();g.stroke();
+  g.fillStyle='#2b2118';g.font='bold 40px sans-serif';g.textAlign='center';g.fillText(txt,210,72);return tex(c)}
+const bubA=bubble('Hi! I\u2019m Sharif \ud83d\udc4b'),bubB=bubble('Let\u2019s talk! \ud83d\udc4b');
+const bub=new THREE.Sprite(new THREE.SpriteMaterial({map:bubA,transparent:true,depthTest:false}));bub.scale.set(2.1,.75,1);bub.position.set(0,2.65,0);bub.renderOrder=10;me.add(bub);
+function pose(t){
+  sitS+=(sitT-sitS)*.035;const k=sitS,w=Math.sin(k*Math.PI),sw=Math.sin(t*10)*.5*w;
+  me.position.set(lerp(1.8,-.89,k),0,lerp(.8,-1.74,k));
+  const fc=Math.atan2(cam.position.x-me.position.x,cam.position.z-me.position.z),tg=Math.PI+.3,d=Math.atan2(Math.sin(tg-fc),Math.cos(tg-fc));me.rotation.y=fc+d*k;
+  body.position.y=-.34*k+Math.abs(Math.sin(t*10))*.04*w;
+  thL.rotation.x=-1.571*k+sw;thR.rotation.x=-1.571*k-sw;knL.rotation.x=1.571*k+Math.max(0,-sw)*.8;knR.rotation.x=1.571*k+Math.max(0,sw)*.8;
+  tor.rotation.x=.1*k;
+  shR.rotation.z=lerp(-2.6,-.12,k);shR.rotation.x=-.75*k;elR.rotation.z=lerp(-.35+Math.sin(t*8)*.5,0,k);elR.rotation.x=-.95*k+Math.sin(t*14)*.06*k;
+  shL.rotation.z=.1;shL.rotation.x=-.75*k;elL.rotation.x=-.95*k+Math.sin(t*12)*.06*k;
+  head.rotation.y=Math.sin(t*.8)*.2*(1-k);
+  bub.material.opacity=Math.max(0,1-k*2.5);bub.material.map=sec>5.6?bubB:bubA;
+}
+// skateboard parked on the rug
+const sk=new THREE.Group();sk.position.set(2.7,.12,1.5);sk.rotation.y=.6;room.add(sk);
+box(.3,.035,1.0,0xd9622b,0,0,0,sk);box(.3,.01,1.0,0x17181b,0,.022,0,sk);
+[-.3,.3].forEach(z=>{box(.34,.025,.06,0x9aa0a6,0,-.05,z,sk);[-.17,.17].forEach(x=>{const w=cyl(.06,.06,.05,0xefe3cd,x,-.07,z,sk,14);w.rotation.z=Math.PI/2})});
+// camera path (scroll-driven)
+const V=[{p:[8.5,6.5,9],l:[0,1.3,-.5],x:.2},{p:[.5,2.5,1.4],l:[-.8,2.0,-2.8],x:-.2},...[0,1,2,3].map(()=>({p:[3,2.4,1.8],l:[2.9,2.3,-3.3],x:-.2})),{p:[-7.5,5.5,8],l:[0,1.3,-.5],x:-.2}];
+const secs=[...document.querySelectorAll('.s')];let cs=[];
+const meas=()=>cs=secs.map(s=>s.offsetTop+s.offsetHeight/2);
+addEventListener('load',meas);
+let mx=0,my=0,cp=new THREE.Vector3(8.5,6.5,9),cl=new THREE.Vector3(0,1.3,-.5),cx=.2,lastKey=-1;
+addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+const lerp=(a,b,t)=>a+(b-a)*t,sm=t=>t*t*(3-2*t);
+let pj=0,sitT=0,sec=0,sitS=0;
+function view(){
+  if(cs.length!==secs.length)meas();const y=scrollY+innerHeight/2;let i=0;
+  while(i<cs.length-1&&y>=cs[i+1])i++;
+  const f=i>=cs.length-1?0:Math.min(1,Math.max(0,(y-cs[i])/(cs[i+1]-cs[i])));
+  const a=V[i],b=V[Math.min(i+1,V.length-1)],e=sm(f),m=innerWidth<761?1.45:1;pj=Math.min(3,Math.max(0,i-2+(i>=2&&i<5?e:0)));sec=i+f;sitT=sec>.6&&sec<5.6?1:0;
+  const P=a.p.map((v,k)=>lerp(v,b.p[k],e)),Lk=a.l.map((v,k)=>lerp(v,b.l[k],e));
+  const D=new THREE.Vector3(...P).sub(new THREE.Vector3(...Lk)).multiplyScalar(m).add(new THREE.Vector3(...Lk));
+  cp.lerp(D,.07);cl.lerp(new THREE.Vector3(...Lk),.07);cx+=(lerp(a.x,b.x,e)-cx)*.07;
+}
+function rs(){const w=innerWidth,h=innerHeight;ren.setSize(w,h,false);cam.aspect=w/h;cam.fov=w/h<1?50:35;cam.updateProjectionMatrix();meas()}
+addEventListener('resize',rs);rs();
+(function loop(t){
+  requestAnimationFrame(loop);t*=.001;view();
+  const n=Math.min(FULL,Math.floor((t*28)%(FULL+70))),bl=Math.floor(t*2)%2,k=n*2+bl;if(k!==lastKey){lastKey=k;drawCode(n,bl)}
+  const pa=Math.floor(pj),pb=Math.min(3,pa+1);dA.material.map=PT[pa];dB.material.map=PT[pb];dB.material.opacity=pj-pa;
+  steam.forEach(s=>{const u=s.userData,p=(t*.2+u.p)%1;s.position.set(Math.sin(p*6+u.x*5)*.06+u.x*.05,.32+p*.7,0);s.scale.setScalar(.12+p*.25);s.material.opacity=(1-p)*.5});
+  crown.rotation.z=Math.sin(t*1.2)*.03;crown.rotation.x=Math.cos(t*.9)*.02;
+  pose(t);cam.position.set(cp.x+mx*.6,cp.y-my*.4,cp.z);cam.lookAt(cl);
+  const w=innerWidth,h=innerHeight;
+  if(w<761)cam.setViewOffset(w,h,0,h*.2,w,h);else cam.setViewOffset(w,h,-cx*w,0,w,h);
+  ren.render(sc,cam);
+})(0);
+</script>
+</body>
+</html>
